@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated manuscript."
+title: "PIK3CA mutant dosage in cervical cancer"
+type: software
+
+authors:
+  - family-names: "Zhou"
+    given-names: "Yuanyuan"
+  - family-names: "Chen"
+    given-names: "Dongmei"
+  - family-names: "Luo"
+    given-names: "Qidan"
+  - family-names: "Zhang"
+    given-names: "Sixing"
+  - family-names: "Meng"
+    given-names: "Yongzhi"
+  - family-names: "Liang"
+    given-names: "Shiyong"
+
+repository-code: "https://github.com/ccqdz/CESC-PIK3CA-mutant-dosage"
+version: "1.0.0"
+
+preferred-citation:
+  type: article
+  title: "Whole-genome doubling and chromosome 3q gain differentially shape PIK3CA mutant dosage in cervical cancer"
+  authors:
+    - family-names: "Zhou"
+      given-names: "Yuanyuan"
+    - family-names: "Chen"
+      given-names: "Dongmei"
+    - family-names: "Luo"
+      given-names: "Qidan"
+    - family-names: "Zhang"
+      given-names: "Sixing"
+    - family-names: "Meng"
+      given-names: "Yongzhi"
+    - family-names: "Liang"
+      given-names: "Shiyong"
+  journal: "Gynecologic Oncology"
