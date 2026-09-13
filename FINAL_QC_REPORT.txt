@@ -1,0 +1,53 @@
+TCGA-CESC PIK3CA FINAL LOCKED QC REPORT
+========================================
+TCGA cohort: 178
+PIK3CA-mutant: 47
+Median mutant CN: 1.336818
+Median FAM: 0.422931
+WGD− / WGD+: 35 / 12
+3q evaluable / 3q+: 40 / 26
+
+WGD endpoints:
+             endpoint WGD_minus_median WGD_plus_median
+               <char>            <num>           <num>
+1:           Total CN        3.0000000       4.0000000
+2:        CN / ploidy        1.4705882       1.3491070
+3:          Mutant CN        1.1384930       2.3403067
+4: Mutant CN / ploidy        0.5410714       0.6814422
+5:                FAM        0.4008652       0.4871825
+              p         fdr
+          <num>       <num>
+1: 0.0006750165 0.002367122
+2: 0.8643675965 0.864367596
+3: 0.0009468488 0.002367122
+4: 0.3602408128 0.450301016
+5: 0.1680616635 0.280102772
+
+Adjusted 3q endpoints:
+             endpoint        beta        ci_low    ci_high
+               <char>       <num>         <num>      <num>
+1:           Total CN  1.36204621  0.8237916186 1.90030080
+2:          Mutant CN  0.38579593 -0.0408616405 0.81245349
+3: Mutant CN / ploidy  0.20192228 -0.0000750134 0.40391958
+4:                FAM -0.07465301 -0.1676232967 0.01831728
+              p          fdr
+          <num>        <num>
+1: 1.002918e-05 4.011671e-05
+2: 7.495209e-02 9.993612e-02
+3: 5.008082e-02 9.993612e-02
+4: 1.121375e-01 1.121375e-01
+
+Influential observations:
+   model_row original_row cooks_distance influential
+       <int>        <int>          <num>      <lgcl>
+1:        35           35      0.3517201        TRUE
+2:         4            4      0.1099301        TRUE
+     patient_id
+         <char>
+1: TCGA-LP-A7HU
+2: TCGA-C5-A1MH
+
+TCGA vs MSK mutation Fisher P: 0.8080991
+MSK mutation vs CNA=2 Fisher P: 0.048001169
+
+ALL LOCKED NUMERICAL ASSERTIONS PASSED.
